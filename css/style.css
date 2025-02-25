@@ -1,0 +1,175 @@
+
+ 
+/*sienna 119, 47, 26
+Fulvous 226, 132, 19
+cream 255, 255, 179
+black 0, 0, 1
+gunmetal 41, 47, 54
+*/
+
+
+body { 
+    background-color: rgb(226, 132, 19); 
+    margin: auto;
+}
+
+#maintitle{
+    border: solid 6px  rgb(226, 132, 19);
+}
+
+#actricletitle{
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: rgb(255, 255, 179); 
+     font-size: 60px;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: solid 6px black;
+     display: block;
+     border-radius: 20px;
+}
+
+
+.title{
+    color: rgb(255, 255, 179); 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 6px black;
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+}
+
+header, footer{
+    background-color:rgb(41, 47, 54);
+    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p { margin-top: 20px;
+    line-height: 2 ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font: color rgb(255, 255, 179);  
+  }
+
+li{    
+    display: inline-block;
+}
+
+.menu a{
+    background: lightslategrey;  
+    display: block;
+    color:rgb(41, 47, 54);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none; 
+    margin: 10px 5px 20px;
+    border-radius: 20px;
+}
+  
+a:hover, a:active {
+    background-color: rgb(226, 132, 19);
+    border-radius: 20px;
+  }
+
+#copyright{
+    text-align: right;
+    color: rgb(255, 255, 179);
+}
+
+table{
+    border: solid 6px black;
+    border-radius: 20px;
+    background: rgb(255, 255, 179);
+    border-collapse: separate;
+    width: 100%;
+    padding: 15px;
+    vertical-align: middle;
+    justify-content: center;
+} 
+
+th {
+    border: 1px solid black;
+    background: rgb(255, 255, 179);
+    border-collapse: collapse;
+    vertical-align: middle;
+    padding: 15px;
+    justify-content: center;
+    
+}
+
+td {
+    border: 1px solid black;
+    background: rgb(255, 255, 179);
+    border-collapse: collapse;
+    vertical-align: middle;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.row {
+    display: flex;
+    width: 90%;
+    padding: 15px;
+    vertical-align: middle;
+    justify-content: center;
+    margin: auto;
+  }
+ 
+  .column1 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 0;
+    flex: 1;
+    margin: auto;
+  }
+
+  .column2 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 0;
+    flex: 1;
+    margin: auto;
+  }
+  
+  .image{
+    border-radius: 20px;
+    width: 100%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px){
+    .column{
+        width:100%;
+    }
+}
+
+
+
+
+
